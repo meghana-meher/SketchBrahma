@@ -1,0 +1,688 @@
+.bgc{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+*{
+    box-sizing:border-box;
+}
+.navbar {
+    width: 90%;
+    height: 100px;
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding:0px 150px;
+    
+}
+ ul li{
+    font-family: 'Ibarra Real Nova', serif;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex-end;
+    justify-content: space-around;
+    display: inline;
+    list-style-type:none;
+    padding-right: 15px;
+}
+.menulist{
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+}
+.menulist ol li{
+position: relative;
+color: black;
+display:inline-block;
+line-height: 42px;
+font-size: 35px;
+font-family: 'Ibarra Real Nova', serif;
+overflow: hidden;
+text-align: center;
+text-transform: capitalize;
+padding-bottom: 3px;
+
+}
+.menulist li:hover{
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+.navtwo{
+    margin-top: 150px;
+    color:white;
+    padding:0px 150px;
+
+}
+.navtwo h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 57px;
+}
+.viewmore{
+    margin-top: 50px;
+
+
+}
+.viewmore,button{
+    width: 300px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-family: 'Ibarra Real Nova', serif;
+    border: 2px solid white;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+
+}
+.viewmore:hover{
+    background: linear-gradient(45deg,#9834eb,#34eb49,#ebc334);
+    border: 2px solid black;
+    font-size: 25px;
+    color: black;
+}
+.navthree{
+    margin-top: 150px;
+    color:gray;
+    padding:0px 150px;
+
+}
+.navthree h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    display: inline;
+}
+.images img{
+    width: 140px;
+    height: 60px;
+}
+.images{
+    grid-template-columns:repeat(6,1fr);
+	 grid-gap: 2px;
+    display: grid;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.bodyone{
+    margin-top: 50px;
+    background-color: white;
+    padding:0px 300px;
+    padding-top: 100px;
+}
+h3{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+p{
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 26px;
+}
+.lists{
+    margin-top: 20px;
+    background-color: white;
+    padding:60px 250px;
+   
+}
+.Ux,h4{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+}
+.Ux,li{
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+
+}
+.Ux li:hover{
+    color:purple;
+}
+.casebody{
+    background-color:black;
+    width: 100%;
+    height: 100%;
+}
+.case{
+    padding-left: 120px;
+    padding-top: 100px;
+    background-color:black;
+    width: 100%;
+    height: 100%;
+}
+.case h1{
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    /* padding-left: 120px;
+    padding-top: 100px; */
+}
+.card{
+    margin-top: 50px;
+    width: 450px;
+    height: 600px;
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom:50px ;
+    
+}
+.card-body{
+    width: 450px;
+    height:450px;
+    background-color: black;
+    top:0px;
+    left: 0px;
+    /* right: 0px; */
+    position: relative;
+    overflow: hidden;
+   border: 1px solid transparent;
+
+}
+.card-body img{
+    top: 0px;
+    left: 0px;
+    width: 450px;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+
+}
+.card-body img:hover{
+transform: scale(1.1);   
+transition: 2s; 
+}
+.card-footer{
+    border: none;
+    width: 100%;
+    height: 260px;
+    background-color: #000;
+    border: transparent;
+    /* position: relative; */
+}
+.card-footer h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+.card-footer p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    padding-left: 5px;
+}
+.card-footer button{
+    width: 150px;
+    position: absolute;
+    top:550px;
+    height: 30px;
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 10px;
+    background-color: gray;
+    color: #000;
+    border: transparent;
+}
+h5{
+    background-color: #000;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 10px;
+}
+h5:hover{
+    color:orangered;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.bodytwo{
+    margin-top: 50px;
+    background-color: white;
+    padding:0px 300px;
+    padding-top: 1px;
+}
+.bodytwo h3{
+font-family: 'Ibarra Real Nova', serif;
+    font-size: 40px;
+}
+.clients{
+    margin-top: 50px;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap: 70px 80px;
+   display: grid;
+
+}
+.clients img{
+    width: 110px;
+    height: 90px;
+}
+
+.bodytwo,h6{
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    padding-top: 20px;
+}
+h6:hover{
+    color:orangered;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.heading{
+    margin-top: 50px;
+    background-color: black;
+    padding:0px 300px;
+    padding-top: 100px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+.grid {
+    grid-template-columns:repeat(6,1fr);
+	 grid-gap: 2px;
+    display: grid;
+    cursor: pointer;
+    padding-bottom: 20px;
+    padding-left: 270px;
+}
+.grid img{
+    width: 70px;
+    padding-top: 20px;
+}
+.expertise{
+    background-color: black;
+}
+.name{
+color: white;
+padding-top: 10px;
+}
+.bodythree{padding:0px 300px;
+    padding-top: 100px;
+
+}
+.headingss{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 45px;
+
+}
+.btns {
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    color: #000;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.btns:hover{
+    border: 2px solid blueviolet;
+}
+.footer{
+    padding:0px 300px;
+    padding-top: 100px;
+}
+.footerhead{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 20px;
+    color: #000;
+}
+a:hover{
+    color:brown ;
+}
+
+.copy-rights{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 5px;
+    color: gray;
+}
+.copytext{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .navbar {
+    width: 400px;
+    height: 100px;
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding:0px 0px;
+
+}
+ul li{
+    font-family: 'Ibarra Real Nova', serif;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex-end; 
+     justify-content: space-around;
+    display: inline;
+    list-style-type:none;
+    padding-right: 15px;
+}
+    .menulist{
+        width: 220px;
+        height: 260px;
+        background-color: white;
+        position: absolute;
+    }
+    .menulist ol li{
+        position: relative;
+        color: black;
+        display:inline-block;
+        line-height: 30px;
+        font-size: 32px;
+        font-family: 'Ibarra Real Nova', serif;
+        overflow: hidden;
+        text-align: center;
+        text-transform: capitalize;
+        padding-bottom: 3px;
+        }
+        .menulist li:hover{
+            text-decoration: underline;
+            text-decoration-color: brown;
+        }
+        .navtwo{
+            margin-top: 150px;
+            color:white;
+          padding:0px 0px;
+
+        }
+        .navtwo h1{
+            font-family: 'Work Sans', sans-serif;
+            font-size: 20px;
+        }
+        .viewmore,button{
+            width: 220px;
+            height: 60px;
+            background-color: black;
+            color: white;
+            font-family: 'Ibarra Real Nova', serif;
+            border: 2px solid gray;
+            font-size: 16px;
+            text-transform: capitalize;
+        }
+        .viewmore:hover{
+            background: linear-gradient(45deg,#9834eb,#34eb49,#ebc334);
+            border: 2px solid black;
+            font-size: 18px;
+            color: black;
+        }
+        .images img{
+            width: 120px;
+            height: 60px;
+        }
+        .images{
+            grid-template-columns:repeat(3,1fr);
+             grid-gap: 2px;
+            display: grid;
+        }
+        .navthree{
+            margin-top: 110px;
+            color:gray;
+           padding:0px 0px;
+
+        }
+        .bodyone{
+            margin-top: 20px;
+            background-color: white;
+            padding:50px 0px;
+        }
+        h3{
+            font-family: 'Merriweather', serif;
+            font-size: 30px;
+        }
+        p{
+            font-family: 'Albert Sans', sans-serif;
+            font-size: 20px;
+            padding-top: 10px;
+        }
+        .lists{
+            margin-top: 10px;
+            background-color: white;
+            padding:0px 0px;
+            
+           
+        }
+        .Ux,h4{
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 30px;
+        }
+        .Ux,li{
+            list-style-type: none;
+            font-family: 'Lato', sans-serif;
+            font-size: 18px;
+            line-height: 32px;
+        
+        }
+        .Ux li:hover{
+            color:purple;
+        }
+        .casebody{
+            background-color:black;
+            width: 400px;
+            height: 100%;
+        }
+        .case{
+            padding-left: 0px;
+            padding-top: 30px;
+            background-color:black;
+            width: 400px;
+            height: 100%;
+        }
+        .case h1{
+            color: white;
+            font-family: 'Merriweather', serif;
+            font-size: 30px;
+           
+        }
+        .card{
+            margin-top: 30px;
+            width: 390px;
+            height: 600px;
+            background-color: black;
+            margin-bottom:30px ;
+            left: 0px;
+            right: 0px;
+            
+        }
+        .card-body{
+            width: 390px;
+            height:450px;
+            background-color: black;
+            top:0px;
+            left: 0px;
+            position: relative;
+            overflow: hidden;
+           border: 1px solid transparent;
+        
+        }
+        .card-body img{
+            top: 0px;
+            left: 0px;
+            width: 350px;
+            height: 100%;
+            position: absolute;
+            object-fit: cover;
+        
+        }
+        .card-body img:hover{
+        transform: scale(1.1);   
+        transition: 2s; 
+        }
+        .card-footer{
+            border: none;
+            width: 350px;
+            height: 260px;
+            background-color: #000;
+            border: transparent;
+
+        }
+        .card-footer h3{
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 25px;
+            color: #fff;
+        }
+        .card-footer p{
+            font-family: 'Lato', sans-serif;
+            font-size: 13px;
+            color: #fff;
+            background-color: #000;
+            width: 350px;
+            position: absolute;
+            left: 0px;
+            padding-left: 0px;
+        }
+        .card-footer button{
+            width: 150px;
+            position: absolute;
+            top:530px;
+            height: 30px;
+            font-family: 'Albert Sans', sans-serif;
+            font-size: 10px;
+            background-color: gray;
+            color: #000;
+            border: transparent;
+        }
+        .bodytwo{
+            margin-top: 50px;
+            background-color: white;
+            padding:0px 0px;
+            padding-top: 1px;
+        }
+        .bodytwo h3{
+        font-family: 'Ibarra Real Nova', serif;
+            font-size: 28px;
+        }
+        .clients{
+            margin-top: 50px;
+            grid-template-columns:repeat(3,1fr);
+            grid-gap: 10px 20px;
+           display: grid;
+        
+        }
+        .clients img{
+            width: 110px;
+            height: 90px;
+        }
+        
+        .bodytwo,h6{
+            font-family: 'Ibarra Real Nova', serif;
+            text-align: center;
+            font-size: 25px;
+            padding-bottom: 10px;
+            background-color: #fff;
+            padding-top: 20px;
+        }
+        h6:hover{
+            color:orangered;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .heading{
+            margin-top: 50px;
+            background-color: black;
+            padding:0px 0px;
+            padding-top: 100px;
+            font-family: 'Noto Sans', sans-serif;
+            color: white;
+        }
+        .grid {
+            grid-template-columns:repeat(2,1fr);
+           grid-gap: 2px;
+            display: grid;
+            cursor: pointer;
+            padding-bottom: 20px;
+            padding-left: 0px;
+        }
+        .grid img{
+            width: 70px;
+            padding-top: 20px;
+        }
+        .expertise{
+            background-color: black;
+        }
+        .name{
+        color: white;
+        padding-top: 10px;
+        }
+        .bodythree{
+            padding:0px 0px;
+            padding-top: 100px;
+        
+        }
+        .headingss{
+            font-family: 'Ibarra Real Nova', serif;
+            font-size: 35px;
+        
+        }
+        .btns {
+            width: 160px;
+            height: 50px;
+            background-color: white;
+            color: #000;
+            border: 2px solid black;
+            margin-bottom: 20px;
+        }
+        .btns:hover{
+            border: 2px solid blueviolet;
+        }
+        .footer{
+            padding:0px 0px;
+            padding-top: 100px;
+        }
+        .footerhead{
+            font-family: 'Ibarra Real Nova', serif;
+            font-size: 20px;
+            padding-top: 20px;
+        
+        }
+        a{
+            text-decoration: none;
+            font-size: 30px;
+            padding-left: 20px;
+            color: #000;
+        }
+        a:hover{
+            color:brown ;
+        }
+        
+        .copy-rights{
+            text-align: center;
+            padding-top: 30px;
+            font-size: 5px;
+            color: gray;
+        }
+        .copytext{
+            font-size: 15px;
+        }
+        
+        
+}

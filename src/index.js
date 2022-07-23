@@ -1,13 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Main from './Components/Main';
+import Clients from './Components/Clients'
+
+
 import reportWebVitals from './reportWebVitals';
+import CaseStudies from './Components/CaseStudies';
+import Footer from './Components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+<Router>
+    <Main/>
+    <Routes>
+      <Route path='/CaseStudies' element={<CaseStudies/>}></Route>
+      <Route path="/Clients" element={<Clients/>}></Route>
+      <Route path='/Footer' element={<Footer/>}></Route>
+
+    </Routes>
+    </Router>
   </React.StrictMode>
 );
 
